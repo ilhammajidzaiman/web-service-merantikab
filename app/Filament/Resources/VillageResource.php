@@ -27,7 +27,6 @@ class VillageResource extends Resource
 {
     protected static ?string $model = Village::class;
     protected static ?string $navigationIcon = 'heroicon-o-map-pin';
-    protected static ?string $activeNavigationIcon = 'heroicon-s-map-pin';
     protected static ?string $modelLabel = 'Desa';
     protected static ?string $navigationLabel = 'Desa';
     protected static ?string $slug = 'desa';
