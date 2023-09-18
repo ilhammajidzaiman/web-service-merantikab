@@ -9,4 +9,11 @@ use Filament\Resources\Pages\ViewRecord;
 class ViewDistrict extends ViewRecord
 {
     protected static string $resource = DistrictResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\EditAction::make(),
+        ];
+    }
 }

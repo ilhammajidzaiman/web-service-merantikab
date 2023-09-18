@@ -58,7 +58,7 @@ class VillageResource extends Resource
                             ->default('1'),
                     ]),
                 Section::make('Wilayah Desa')
-                    ->icon('heroicon-o-map')
+                    ->icon('heroicon-o-map-pin')
                     ->collapsed()
                     ->schema([
                         TextInput::make('wide')
